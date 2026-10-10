@@ -1,0 +1,29 @@
+# Python environment and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and sensitive variables
+.env
+.env.*
+!.env.example
+
+# Pytest / Coverage / Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Database dumps / temp files
+*.log
+*.dump
+dump/
